@@ -72,6 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>E:\GitRepository\opencv-3.4\build\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\GitRepository\opencv-3.4\build\install\x64\vc16\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -94,6 +96,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opencv_calib3d3412d.lib;opencv_core3412d.lib;opencv_dnn3412d.lib;opencv_features2d3412d.lib;opencv_flann3412d.lib;opencv_highgui3412d.lib;opencv_imgcodecs3412d.lib;opencv_imgproc3412d.lib;opencv_ml3412d.lib;opencv_objdetect3412d.lib;opencv_photo3412d.lib;opencv_shape3412d.lib;opencv_stitching3412d.lib;opencv_superres3412d.lib;opencv_video3412d.lib;opencv_videoio3412d.lib;opencv_videostab3412d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
