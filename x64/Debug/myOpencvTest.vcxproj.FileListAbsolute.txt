@@ -1,2 +1,0 @@
-E:\GitRepository\myOpencvTest\x64\Debug\myOpencvTest.exe
-E:\GitRepository\myOpencvTest\x64\Debug\myOpencvTest.pdb
